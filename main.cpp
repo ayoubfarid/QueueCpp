@@ -30,5 +30,9 @@ int main() {
     fv.dequeue();
     std::cout << "afficher les elements du tableau des vecteur  "  <<std::endl;
     std::cout<<fv;
+
+    fv.enqueue(v1);
+    std::cout << "afficher les elements du tableau des vecteur  "  <<std::endl;
+    std::cout<<fv;
     return 0;
 }

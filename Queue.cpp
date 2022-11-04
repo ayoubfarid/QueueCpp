@@ -36,7 +36,7 @@ template<class T> bool Queue<T>::isEmpty() {
 template<class T> void Queue<T>::enqueue (T  elem){
 
     /* Ajout d'un nouveau element au file */
-    if (nbrElement==(queue-head-1))
+    if (nbrElement==(queue-1))
     {
         for(int i=++head;i<=queue;i++)
         {
